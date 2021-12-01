@@ -11,8 +11,11 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/collections": "^5.1.2",
     "@types/lodash": "^4.14.177",
+    "@types/mathjs": "^9.4.2",
     "@types/node": "^16.11.11",
+    "@types/ramda": "^0.27.58",
     "@typescript-eslint/eslint-plugin": "^5.5.0",
     "@typescript-eslint/parser": "^5.5.0",
     "eslint": "^8.3.0",
@@ -23,6 +26,10 @@
     "typescript": "^4.5.2"
   },
   "dependencies": {
-    "lodash": "^4.17.21"
+    "collect.js": "^4.29.3",
+    "collections": "^5.1.12",
+    "lodash": "^4.17.21",
+    "mathjs": "^10.0.0",
+    "ramda": "^0.27.1"
   }
 }
