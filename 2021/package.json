@@ -6,7 +6,9 @@
   "scripts": {
     "lint": "tsc -p . --noEmit && eslint './Solutions/**/*.{ts,tsx}'",
     "day-1-p1": "NODE_ENV=production ts-node Solutions/Day-1/solution_p1.ts",
-    "day-1-p2": "NODE_ENV=production ts-node Solutions/Day-1/solution_p2.ts"
+    "day-1-p2": "NODE_ENV=production ts-node Solutions/Day-1/solution_p2.ts",
+    "day-2-p1": "NODE_ENV=production ts-node Solutions/Day-2/solution-p1.ts",
+    "day-2-p2": "NODE_ENV=production ts-node Solutions/Day-2/solution-p2.ts"
   },
   "author": "",
   "license": "ISC",
