@@ -91,8 +91,9 @@ def create_diagram(max_x: int, max_y: int) -> np.ndarray:
 def calculate_number_of_overlaps(new_diagram: np.ndarray) -> int:
     overlaps = 0
     for x in np.nditer(new_diagram.flatten()):
-        if x != '.' and int(x) >= 2:
-            overlaps += 1
+        if isinstance(x, str):
+            if x != "." and int(x) >= 2:
+                overlaps += 1
     return overlaps
 
 
